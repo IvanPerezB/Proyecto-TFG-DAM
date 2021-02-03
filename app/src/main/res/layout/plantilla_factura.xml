@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/fnom"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:id="@+id/fpre"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Precio"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fcan"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/ftot"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Total"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

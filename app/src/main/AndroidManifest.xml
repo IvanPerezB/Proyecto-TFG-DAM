@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.definitivo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SistemaTPV"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DEFINITIVO">
+        <activity android:name=".Factura"></activity>
+        <activity android:name=".VinosTintos" />
+        <activity android:name=".VinosBlancos" />
+        <activity android:name=".Refrescos" />
+        <activity android:name=".Principal" />
+        <activity android:name=".Postres" />
+        <activity android:name=".Pescados" />
+        <activity android:name=".Pastas" />
+        <activity android:name=".Licores" />
+        <activity android:name=".Entrantes" />
+        <activity android:name=".Conchas" />
+        <activity android:name=".Cervezas" />
+        <activity android:name=".Categorias" />
+        <activity android:name=".Carnes" />
+        <activity android:name=".Cafes" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
